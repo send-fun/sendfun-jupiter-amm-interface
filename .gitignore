@@ -1,0 +1,3 @@
+# Cargo.lock is committed on purpose: the tests need these exact versions.
+target/
+.DS_Store

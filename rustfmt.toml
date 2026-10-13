@@ -1,0 +1,18 @@
+# This crate ships on its own, so it carries its own rustfmt settings. Without
+# them, a fork's first `cargo fmt` rewrites every line.
+
+edition = "2024"
+style_edition = "2024"
+
+max_width = 80
+hard_tabs = true
+tab_spaces = 4
+newline_style = "Unix"
+
+use_small_heuristics = "Default"
+
+reorder_imports = true
+
+remove_nested_parens = true
+use_try_shorthand = true
+use_field_init_shorthand = true
